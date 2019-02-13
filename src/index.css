@@ -1,0 +1,54 @@
+* {
+  color: whitesmoke;
+  font-family: 'Quantico', sans-serif;
+  background: #000000;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+body {
+  background-color: #221d1d;
+  padding-right: 15%;
+  padding-left: 15%;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+#gameContainer {
+  width: 960px; 
+  height: 600px
+}
+
+.jumbotron {
+  background-color: rgb(65, 62, 62);
+  color: white; 
+  text-align: center;
+}
+
+.about {
+  padding-right: 15%;
+  padding-left: 15%;
+  padding-top: 2%;
+}
+ 
+h1 {
+  font-size: 450%;
+  background: transparent;
+}
+
+br{
+  color: blue;
+}
+
+p {
+  background: transparent;
+}
+
+hr {
+  background: whitesmoke;
+}
