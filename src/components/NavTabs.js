@@ -5,9 +5,9 @@ const NavTabs = () => (
   <ul className="nav nav-tabs">
     <li className="nav-item">
       <Link
-        to="/"
+        to="/game"
         className={
-          window.location.pathname === "/" ? "nav-link active" : "nav-link"
+          window.location.pathname === "/game" ? "nav-link active" : "nav-link"
         }
       >
         Home
@@ -15,9 +15,9 @@ const NavTabs = () => (
     </li>
     <li className="nav-item">
       <Link
-        to="/about"
+        to="/game/about"
         className={
-          window.location.pathname === "/about" ? "nav-link active" : "nav-link"
+          window.location.pathname === "/game/about" ? "nav-link active" : "nav-link"
         }
       >
         About
