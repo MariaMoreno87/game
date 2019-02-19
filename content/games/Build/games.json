@@ -1,9 +1,9 @@
 {
 "companyName": "DefaultCompany",
 "productName": "Word Typing Game",
-"dataUrl": "HotDog.data.unityweb",
-"wasmCodeUrl": "HotDog.wasm.code.unityweb",
-"wasmFrameworkUrl": "HotDog.wasm.framework.unityweb",
+"dataUrl": "games.data.unityweb",
+"wasmCodeUrl": "games.wasm.code.unityweb",
+"wasmFrameworkUrl": "games.wasm.framework.unityweb",
 "TOTAL_MEMORY": 268435456,
 "graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
 "webglContextAttributes": {"preserveDrawingBuffer": false},
