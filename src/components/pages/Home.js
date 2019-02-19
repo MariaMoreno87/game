@@ -6,7 +6,7 @@ class Home extends React.Component {
   }
   componentDidMount = () => {
     this.setState({
-      gameInstance: window.UnityLoader.instantiate("gameContainer", "/game/content/games/Build/HotDog.json", { onProgress: window.UnityProgress })
+      gameInstance: window.UnityLoader.instantiate("gameContainer", "/game/content/games/Build/games.json", { onProgress: window.UnityProgress })
     })
   }
   handleClick = () => {
